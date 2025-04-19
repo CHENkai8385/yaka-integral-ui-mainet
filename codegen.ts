@@ -3,9 +3,9 @@ import type { CodegenConfig } from '@graphql-codegen/cli';
 const config: CodegenConfig = {
     overwrite: true,
     schema: [
-        'https://gateway.thegraph.com/api/[api-key]/subgraphs/id/AjxyFsoqQasd54hz7groCv5PCzjYifwV7oUcK5CCHk8t',
-        'https://gateway.thegraph.com/api/[api-key]/subgraphs/id/75iGcPhADaVXLzkfmSnd55QdhLbSmgtwxNZBb5Ko13MV',
-        'https://gateway.thegraph.com/api/[api-key]/subgraphs/id/CpHNhKtEugksaNtzeww8Fik4axocMD3CqRkde76Ueiru',
+        'https://gateway.thegraph.com/api/9eb709a02809e8a79e1d5a49eca43da1/subgraphs/id/AjxyFsoqQasd54hz7groCv5PCzjYifwV7oUcK5CCHk8t',
+        'https://gateway.thegraph.com/api/9eb709a02809e8a79e1d5a49eca43da1/subgraphs/id/75iGcPhADaVXLzkfmSnd55QdhLbSmgtwxNZBb5Ko13MV',
+        'https://gateway.thegraph.com/api/9eb709a02809e8a79e1d5a49eca43da1/subgraphs/id/CpHNhKtEugksaNtzeww8Fik4axocMD3CqRkde76Ueiru',
     ],
     documents: 'src/graphql/queries/!(*.d).{ts,tsx}',
     generates: {
